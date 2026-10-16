@@ -7,7 +7,6 @@ app = FastAPI()
 
 # 注册异常处理器
 register_exception_handlers(app)
-
 # 添加 CORS（跨域资源共享）中间件，允许浏览器从其他来源访问本 API。
 app.add_middleware(
     CORSMiddleware,
