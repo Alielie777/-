@@ -7,7 +7,6 @@ venv/
 env/
 .env
 .env.*
-!.env.example
 
 # IDE and local state
 .idea/
